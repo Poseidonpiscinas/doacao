@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+    <head>
+        <title>Pagina de doação</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <style>
+            body{
+                margin: 0;
+                background: rgb(190, 190, 236);
+            }
+            .topo{
+                    display: flex;
+            }
+            .voltar {
+                margin: 10px 25px;
+                height: 25px;
+            }
+            .bandeira {
+                position: absolute;
+                margin: -40px 0 0 80%;
+                height: 80px;
+                transition: 1s;
+            }
+            .bandeira:hover {
+                position: absolute;
+                margin: -1px 0 0 80%;
+                height: 80px;
+                transition: 1s;
+            }
+            .corpo {
+                display: grid;
+                justify-content: center;
+                justify-items: center;
+            }
+            h1{
+                margin-top: 69px;
+                text-align: center;
+                color: rgb(43, 42, 42);
+            }
+            h4{
+                text-align: center;
+                color: rgb(43, 42, 42);
+            }
+            .doacao {
+                margin: 60px 0px 0px 0px;
+                height: 60px;
+            }
+            .doaca:hover{
+                margin: 51px -28px 43px -40px;
+                height: 70px;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            }
+            .divisao {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .nome {
+                display: contents;
+                pointer-events:painted;
+                color: black;
+            }
+            .inf{
+                display: inline-grid;
+                margin: 80px 0px;
+                height: 15px;
+            }
+            .direitos {
+                display: grid;
+                justify-items: center;
+                align-items: end;
+                margin: 25px 0px 0px;
+            }   
+        </style>
+        <div class="topo">
+            <a href="https://infinitycooperative.github.io/Infinity/"><img alt="botão voltar" src="imagens/voltar pt.webp" class="voltar"></a>
+            <img src="imagens/brasil pt.webp" alt="Brasil" class="bandeira">
+        </div>
+        <div class="corpo">
+            <h1>Pagina de doação</h1>
+            <h3>Faça sua doação de:</h3>
+            <div class="divisao">
+            <a href="https://poseidonpiscinas.github.io/outrovalor/" class="nome"><img src="imagens/cabidela.webp" class="doacao" alt="Moedas">outros valores</a>
+            <a href="https://poseidonpiscinas.github.io/doisreais/" class="nome"><img src="imagens/cedula 2.webp" class="doacao" alt="cédula de dois reais">dois reais</a>
+            <a href="https://poseidonpiscinas.github.io/cincoreais/" class="nome"><img src="imagens/cedula 5.webp" class="doacao" alt="cédula de cindo reais">cinco reais</a>
+            <a href="https://poseidonpiscinas.github.io/dezreais/" class="nome"><img src="imagens/cedula 10.webp" class="doacao" alt="cédula de dez reais">dez reais</a>
+            </div>
+        </div>
+        <div class="direitos">
+                <h6 class=direitos>Todos os direitos estão reservados à: Infinity Cooperativa</h6>
+        </div>
+    </body>
+</html>
